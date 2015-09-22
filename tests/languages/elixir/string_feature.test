@@ -40,6 +40,10 @@ Foo bar
 'fo\'o\
 bar'
 
+"""
+## String with markdown header
+"""
+
 ----------------------------------------------------
 
 [
@@ -107,7 +111,8 @@ bar'
 	]],
 	["string", ["''"]],
 	["string", ["'foo'"]],
-	["string", ["'fo\\'o\\\r\nbar'"]]
+	["string", ["'fo\\'o\\\r\nbar'"]],
+	["string", ["\"\"\"\r\n## String with markdown header\r\n\"\"\""]]
 ]
 
 ----------------------------------------------------
